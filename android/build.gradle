@@ -2,7 +2,7 @@ group 'com.djgeo.majascan'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.9.20'
+    ext.kotlin_version = '1.7.10'
     repositories {
         google()
         jcenter()
@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.20"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'me.dm7.barcodescanner:zxing:1.9.13'
 }
